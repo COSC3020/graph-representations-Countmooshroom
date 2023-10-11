@@ -20,3 +20,17 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency matrix to an adjacency list and
 analyze it as above.
+
+## Answer
+
+My code runs something like this:
+
+```
+for (# of vertices) {
+  for (# of vertices) {
+    convert a single item
+  }
+}
+```
+
+Since if runs through the number of vertices time the number of vertices, the time complexity is $\Theta(|V|^2)$.  It does not depend on the number of edges, since it has to process every possible edge every time, no matter the case.
