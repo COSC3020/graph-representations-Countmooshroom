@@ -33,4 +33,4 @@ for (# of vertices) {
 }
 ```
 
-Since if runs through the number of vertices time the number of vertices, the time complexity is $\Theta(|V|^2)$.  It does not depend on the number of edges, since it has to process every possible edge every time, no matter the case.
+Since if runs through the number of vertices times the number of vertices, the time complexity is $\Theta(|V|^2)$.  It does not depend on the number of edges since it has to process every possible edge every time, no matter the case.
